@@ -1,0 +1,102 @@
+#root{
+    background-color: rgba(34, 34, 34, 0.887);
+}
+.input{
+    /* background-color:#dc3545; */
+    background-image: linear-gradient(white,#dc3545);
+    border: none;
+    border-left: 1px solid #1a1a1a;
+    border-bottom: 1px solid #1a1a1a;
+    border-radius: 10px;
+    color: white;
+}
+.img h5{
+    transition: 0.5s;
+}
+.img h5:hover{
+    background-color: #1a1a1a9e;
+    transform: translateY(-1.7vw);
+}
+.foo{
+    background-color: #1a1a1a;
+}
+.ul-foot{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.li-foot{
+    display: inline;
+    padding: 1rem;
+    font-size: 1.8vh;
+    font-style: italic;
+    transition: 1s;
+    cursor: pointer;
+    color: white;
+}
+.li-foot:hover{
+    border-bottom: 2px solid white ;
+}
+.p-foot{
+    padding: 1rem;
+    font-size: 2vh;
+    font-style: italic;
+    margin-left: 1.5vw;
+    color: white;
+}
+.mm h6{
+    font-size: 2vh;
+    font-style: italic;
+}
+.mm p{
+    font-size: 1.5vh;
+    font-style: italic;
+    transition: 0.5s;
+}
+.f:hover{
+    cursor: pointer;
+    color: blue;
+}
+.t:hover{
+    color: rgb(0, 255, 247);
+    cursor: pointer;
+}
+.i:hover{
+    color: rgb(255, 0, 191);
+    cursor: pointer;
+}
+.foo-ri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;   
+    padding: 1rem;
+    font-size: 2vh;
+    font-style: italic;
+}
+.img-1{
+    transition: 1s;
+}
+.img-1:hover{
+    transform: scale(1.04); 
+   zoom: 5rem;
+}
+.love{
+    font-size:x-large;
+    animation-name: ChangeColor;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes ChangeColor{
+    0%{
+        color: white;
+    }
+    50%{
+        color: #e00013;
+    }
+    100%{
+        color: #bbbbbb;
+    }
+}
